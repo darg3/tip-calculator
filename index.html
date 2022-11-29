@@ -9,9 +9,10 @@
   <body>
     <h2>TIP Calculator</h2>
 
-    <form
+    <form>
+      <!-- <form
       oninput="totalamount.value=checkValue.value*(percValue.value/100) + parseInt(checkValue.value)"
-    >
+    > -->
       <label for="checkValue">Input total value of your meal:</label><br />
       <input
         type="number"
@@ -20,11 +21,15 @@
         name="checkValue"
       /><br /><br />
       <label for="percValue">Add percentage you want to tip: </label><br />
-      <input type="text" class="percValue" id="percValue" /><br /><br />
-      <!-- <button class="btn" type="button">Calculate tip</button> -->
-      <!-- </br></br> -->
-      Total amount to pay including tip:
-      <output name="totalamount" id="totalamount" for="principal"></output>
+      <input type="number" class="percValue" id="percValue" /><br /><br />
+      <button class="btn" type="button">Calculate tip</button>
+      </br></br>
+      <!-- Total amount to pay including tip:
+      <output name="totalamount" id="totalamount" for="principal"></output> -->
+      <label for="tipVal">Your tip is: </label><br />
+      <input type="number" class="tipVal" id="tipVal" /><br />
+      <label for="totalPay">Total including tip: </label><br />
+      <input type="number" class="totalPlusTip" id="totalPlusTip" />
     </form>
 
     <script src="/script.js"></script>
