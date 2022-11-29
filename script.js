@@ -26,3 +26,13 @@ function clickCalcTip() {
 }
 
 btn.addEventListener("click", clickCalcTip);
+
+/* <form id= "Form">
+
+ID: <input type= "text"><br><br>
+
+<input type= "button" onclick= "clearInput()" value= "Clear form">
+</form>
+function clearInput() {
+  document.getElementById("Form").reset();
+ */
