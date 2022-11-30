@@ -2,10 +2,12 @@ const btn = document.querySelector(".btn");
 
 const output = document.getElementById("percValue");
 
+const btn_rst = document.querySelector(".btn_reset");
+
 function clickCalcTip() {
-  console.log(document.querySelector(".checkValue").value);
+  // console.log(document.querySelector(".checkValue").value);
   output.innerText = document.querySelector(".checkValue").value;
-  console.log("Button Clicked");
+  // console.log("Button Clicked");
 
   // Select the fields(meal value and tips percentage)
   check = document.getElementById("checkValue");
@@ -34,5 +36,9 @@ ID: <input type= "text"><br><br>
 <input type= "button" onclick= "clearInput()" value= "Clear form">
 </form>
 function clearInput() {
+  */
+function clearInput() {
   document.getElementById("Form").reset();
- */
+}
+
+btn_rst.addEventListener("click", clearInput);
