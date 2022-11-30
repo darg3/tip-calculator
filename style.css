@@ -1,3 +1,8 @@
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 90%;
+}
+
 body {
   background-color: #f3e8ff;
   text-align: center;
@@ -11,15 +16,30 @@ h2 {
 form {
   display: inline-block;
   background-color: #9333ea;
-  margin: 5px 2px;
+  /* margin: 5px 2px; */
   padding: 1rem;
   border-radius: 5%;
-  /* padding-bottom: 5rem; */
+  border: 1mm ridge rgba(41, 75, 187, 0.338);
+  box-shadow: 0.3rem 0.3rem 0.3rem #d8b4fe;
+  padding: 1.6rem;
+}
+
+label {
+  line-height: 2rem;
 }
 
 input {
-  width: 40%;
+  width: 30%;
+  background-color: #d8b4fe;
+  box-shadow: 0.05rem 0.05rem 0.01rem #d8b4fe;
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.tipVal {
   background-color: #f3e8ff;
+  /* font-size: 1.5rem; */
 }
 
 .btn {
@@ -27,7 +47,7 @@ input {
   background-color: #581c87;
   border: 1mm ridge rgba(41, 75, 187, 0.338);
   color: white;
-  padding: 0.2rem;
+  padding: 0.3rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -35,15 +55,29 @@ input {
   margin: 3.5px 1.5px;
 }
 
+.btn:hover,
+.btn:active {
+  background-color: #6b21a8;
+  box-shadow: 0.05rem 0.05rem 0.01rem #d8b4fe;
+  text-shadow: 0.03rem 0.03rem 0.01rem #d8b4fe;
+}
+
 .btn_reset {
   border-radius: 10%;
   background-color: #581c87;
   border: 1mm ridge rgba(41, 75, 187, 0.338);
   color: white;
-  padding: 0.2rem;
+  padding: 0.3rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 1rem;
   /* margin: 3.5px 1.5px; */
+}
+
+.btn_reset:hover,
+.btn_reset:active {
+  background-color: #6b21a8;
+  box-shadow: 0.05rem 0.05rem 0.01rem #d8b4fe;
+  text-shadow: 0.03rem 0.03rem 0.01rem #d8b4fe;
 }
