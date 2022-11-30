@@ -14,6 +14,7 @@ form {
   margin: 5px 2px;
   padding: 1rem;
   border-radius: 5%;
+  /* padding-bottom: 5rem; */
 }
 
 input {
@@ -32,4 +33,17 @@ input {
   display: inline-block;
   font-size: 1rem;
   margin: 3.5px 1.5px;
+}
+
+.btn_reset {
+  border-radius: 10%;
+  background-color: #581c87;
+  border: 1mm ridge rgba(41, 75, 187, 0.338);
+  color: white;
+  padding: 0.2rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  /* margin: 3.5px 1.5px; */
 }
