@@ -26,19 +26,26 @@
       />
       <br />
       <label for="percValue">Add percentage you want to tip: </label><br />
-      <input type="number" class="percValue" id="percValue" /><br /><br />
+      <input type="number" class="percValue" id="percValue" /><br />
+      
+      <label for="peopleNo">Add no. of people: </label><br />
+      <input type="number" class="peopleNo" id="peopleNo" /><br /><br />
+
+
       <button class="btn" type="button">Calculate tip</button>
       <!-- </form> -->
       </br>
       <!-- Total amount to pay including tip:
       <output name="totalamount" id="totalamount" for="principal"></output> -->
-      <label for="tipVal">Your tip is: </label><br />
-      <input type="number" class="tipVal" id="tipVal" /><br />
-      <label for="totalPay">Total including tip: </label><br />
-      <input type="number" class="totalPlusTip" id="totalPlusTip" />
+      <label for="tipVal" class="tip__val hideme">Your total tip is: </label><br />
+      <input type="number" class="tipVal hideme" id="tipVal" /><br />
+      <label for="tippp" class="hideme">Tip per person: </label><br />
+      <input type="number" class="tippp hideme" id="tippp" /><br />
+      <label for="totalPay" class="hideme">Total including tip: </label><br />
+      <input type="number" class="totalPlusTip hideme" id="totalPlusTip" />
       <br /><br />
       <!-- <button class="btn" type="button">Reset</button> -->
-      <button class="btn_reset" type="button">Clear fields</button>
+      <button class="btn_reset hideme" type="button">Clear fields</button>
     </form>
 
     <script src="/script.js"></script>
