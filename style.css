@@ -1,6 +1,6 @@
 html {
   font-family: "Roboto", sans-serif;
-  font-size: 90%;
+  /* font-size: 90%; */
 }
 
 body {
@@ -36,6 +36,16 @@ input {
   text-align: center;
   font-size: 1rem;
 }
+
+/* .hideme {
+  display: none;
+  visibility: hidden;
+}
+
+.showme {
+  display: inline;
+  visibility: visible;
+} */
 
 .tipVal {
   background-color: #f3e8ff;
