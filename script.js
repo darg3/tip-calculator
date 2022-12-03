@@ -32,21 +32,38 @@ function clickCalcTip() {
   document.getElementById("totalPlusTip").value = totalToPay;
   document.getElementById("tippp").value = tipPerPerson;
 
-  // tipVal.classList.remove("hideme");
-  // document.querySelector(".tip__val").classList.remove("hideme");
-  // setTimeout(function () {
-  //   totalPlusTip.classList.remove("hideme");
-  // }, 2000);
+  tipVal.classList.remove("hideme");
+  document.querySelector(".tip__val").classList.remove("hideme");
 
-  // setTimeout(function () {
-  //   tippp.classList.remove("hideme");
-  // }, 3000);
+  setTimeout(function () {
+    document.querySelector(".tip__pp").classList.remove("hideme");
+    tippp.classList.remove("hideme");
+  }, 400);
+  setTimeout(function () {
+    document.querySelector(".total__pt").classList.remove("hideme");
+    totalPlusTip.classList.remove("hideme");
+  }, 800);
+
+  setTimeout(function () {
+    btn_rst.classList.remove("hideme");
+  }, 1200);
 }
 
 btn.addEventListener("click", clickCalcTip);
 
 function clearInput() {
   document.getElementById("Form").reset();
+
+  tipVal.classList.add("hideme");
+  document.querySelector(".tip__val").classList.add("hideme");
+
+  document.querySelector(".tip__pp").classList.add("hideme");
+  tippp.classList.add("hideme");
+
+  document.querySelector(".total__pt").classList.add("hideme");
+  totalPlusTip.classList.add("hideme");
+
+  btn_rst.classList.add("hideme");
 }
 
 btn_rst.addEventListener("click", clearInput);

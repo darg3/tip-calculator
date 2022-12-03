@@ -37,7 +37,7 @@ input {
   font-size: 1rem;
 }
 
-/* .hideme {
+.hideme {
   display: none;
   visibility: hidden;
 }
@@ -45,7 +45,7 @@ input {
 .showme {
   display: inline;
   visibility: visible;
-} */
+}
 
 .tipVal {
   background-color: #f3e8ff;
